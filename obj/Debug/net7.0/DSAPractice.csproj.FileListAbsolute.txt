@@ -1,0 +1,15 @@
+C:\Users\Anjo\source\repos\DSAPractice\bin\Debug\net7.0\DSAPractice.exe
+C:\Users\Anjo\source\repos\DSAPractice\bin\Debug\net7.0\DSAPractice.deps.json
+C:\Users\Anjo\source\repos\DSAPractice\bin\Debug\net7.0\DSAPractice.runtimeconfig.json
+C:\Users\Anjo\source\repos\DSAPractice\bin\Debug\net7.0\DSAPractice.dll
+C:\Users\Anjo\source\repos\DSAPractice\bin\Debug\net7.0\DSAPractice.pdb
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.csproj.AssemblyReference.cache
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.AssemblyInfoInputs.cache
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.AssemblyInfo.cs
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.csproj.CoreCompileInputs.cache
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.dll
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\refint\DSAPractice.dll
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.pdb
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\DSAPractice.genruntimeconfig.cache
+C:\Users\Anjo\source\repos\DSAPractice\obj\Debug\net7.0\ref\DSAPractice.dll
