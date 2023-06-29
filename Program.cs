@@ -11,6 +11,7 @@ public class Program
         ISolution[] solutions = new ISolution[]
         {
             new ContainsDuplicate(),
+            new ValidAnagram(),
         };
 
         // @TODO 
