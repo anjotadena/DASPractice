@@ -12,6 +12,7 @@ public class Program
         {
             new ContainsDuplicate(),
             new ValidAnagram(),
+            new TwoSum(),
         };
 
         // @TODO 
