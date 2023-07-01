@@ -13,6 +13,7 @@ public class Program
             new ContainsDuplicate(),
             new ValidAnagram(),
             new TwoSum(),
+            new GroupAnagrams(),
         };
 
         // @TODO 
