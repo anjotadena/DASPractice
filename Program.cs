@@ -1,4 +1,5 @@
 ﻿using DSAPractice.ArrayAndHashing;
+using DSAPractice.Recursion;
 
 namespace DSAPractice;
 
@@ -14,6 +15,7 @@ public class Program
             new ValidAnagram(),
             new TwoSum(),
             new GroupAnagrams(),
+            new CalculateRecursion(),
         };
 
         // @TODO 
@@ -24,6 +26,5 @@ public class Program
 
             Console.WriteLine($"{i + 1}: {solution.Title} => {solution.Answer()}");
         }
-
     }
 }
