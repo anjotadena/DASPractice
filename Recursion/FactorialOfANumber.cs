@@ -1,15 +1,15 @@
 ﻿namespace DSAPractice.Recursion;
 
-public class SumOfNNumbers : ISolution
+internal class FactorialOfANumber : ISolution
 {
-    public string Title => "Sum of N Numbers";
+    public string Title => "Factorial of a number";
 
     public string Answer()
     {
-        var n = 5;
+        var n = 4;
         var result = Calculate(n);
 
-        return $"Sum of {n} is {result}";
+        return $"Factorial of {n} is {result}";
     }
 
     private int Calculate(int n)
@@ -19,6 +19,6 @@ public class SumOfNNumbers : ISolution
             return 1;
         }
 
-        return n + Calculate(n - 1);
+        return n * Calculate(n - 1);
     }
 }
