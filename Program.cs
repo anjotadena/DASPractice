@@ -16,6 +16,7 @@ public class Program
             new TwoSum(),
             new GroupAnagrams(),
             new CalculateRecursion(),
+            new SumOfNNumbers()
         };
 
         // @TODO 
