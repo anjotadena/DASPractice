@@ -18,6 +18,7 @@ public class Program
             new CalculateRecursion(),
             new SumOfNNumbers(),
             new FactorialOfANumber(),
+            new TopKFrequent(),
         };
 
         // @TODO 
