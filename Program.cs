@@ -1,4 +1,5 @@
 ﻿using DSAPractice.ArrayAndHashing;
+using DSAPractice.BitManipulation;
 using DSAPractice.Recursion;
 
 namespace DSAPractice;
@@ -19,6 +20,9 @@ public class Program
             new SumOfNNumbers(),
             new FactorialOfANumber(),
             new TopKFrequent(),
+
+            // Bit Manipulation
+            new SingleNumber(),
         };
 
         // @TODO 
