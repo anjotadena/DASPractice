@@ -20,7 +20,7 @@ public class Program
             new SumOfNNumbers(),
             new FactorialOfANumber(),
             new TopKFrequent(),
-
+            new ProductOfArrayExceptSelf(),
             // Bit Manipulation
             new SingleNumber(),
         };
