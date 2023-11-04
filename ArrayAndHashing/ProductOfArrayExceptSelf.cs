@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSAPractice.ArrayAndHashing;
 
-public class ProductOfArrayExceptSelf : ISolution
+public class ProductOfArrayExceptSelf : Problem, ISolution
 {
     public string Title => "Product of Array Except Self";
 
@@ -32,6 +32,6 @@ public class ProductOfArrayExceptSelf : ISolution
             postfix *= inputs[i];
         }
 
-        return $"{Title} => Answer | {results.ToString()}";
+        return $"{ArrayOfIntToString(results)}";
     }
 }
