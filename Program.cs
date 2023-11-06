@@ -21,6 +21,7 @@ public class Program
             new FactorialOfANumber(),
             new TopKFrequent(),
             new ProductOfArrayExceptSelf(),
+            new ValidSudoku(),
             // Bit Manipulation
             new SingleNumber(),
         };
