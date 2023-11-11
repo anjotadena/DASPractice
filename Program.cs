@@ -1,5 +1,6 @@
 ﻿using DSAPractice.ArrayAndHashing;
 using DSAPractice.BitManipulation;
+using DSAPractice.LinkedList;
 using DSAPractice.Recursion;
 
 namespace DSAPractice;
@@ -24,6 +25,9 @@ public class Program
             new ValidSudoku(),
             // Bit Manipulation
             new SingleNumber(),
+
+            // Linked List
+            new ReverseLinkedList(),
         };
 
         // @TODO 
