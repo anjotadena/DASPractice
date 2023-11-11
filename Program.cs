@@ -2,6 +2,7 @@
 using DSAPractice.BitManipulation;
 using DSAPractice.LinkedList;
 using DSAPractice.Recursion;
+using DSAPractice.Stack;
 
 namespace DSAPractice;
 
@@ -28,6 +29,9 @@ public class Program
 
             // Linked List
             new ReverseLinkedList(),
+
+            // Stack
+            new MinStack(),
         };
 
         // @TODO 
