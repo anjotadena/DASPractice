@@ -3,6 +3,7 @@ using DSAPractice.BitManipulation;
 using DSAPractice.LinkedList;
 using DSAPractice.Recursion;
 using DSAPractice.Stack;
+using System.Reflection;
 
 namespace DSAPractice;
 
@@ -12,35 +13,28 @@ public class Program
     {
         Console.WriteLine("Data structure and Algorithms | Practice");
 
-        ISolution[] solutions = new ISolution[]
+        // get all solutions
+        var solutionsTypes = Assembly.GetExecutingAssembly()
+            .GetTypes()
+            .Where(t => typeof(ISolution).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract)
+            .ToList();
+
+        for (int i = 0; i< solutionsTypes.Count; i++)
         {
-            new ContainsDuplicate(),
-            new ValidAnagram(),
-            new TwoSum(),
-            new GroupAnagrams(),
-            new CalculateRecursion(),
-            new SumOfNNumbers(),
-            new FactorialOfANumber(),
-            new TopKFrequent(),
-            new ProductOfArrayExceptSelf(),
-            new ValidSudoku(),
-            // Bit Manipulation
-            new SingleNumber(),
+            Console.WriteLine($"{i + 1}. {solutionsTypes[i].Name}");
+        }
 
-            // Linked List
-            new ReverseLinkedList(),
+        Console.WriteLine("Select a solution to execute (enter the number): ");
 
-            // Stack
-            new MinStack(),
-        };
-
-        // @TODO 
-        // Add implementation for every class solution
-        for (var i = 0; i < solutions.Length; i++)
+        if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= solutionsTypes.Count)
         {
-            var solution = solutions[i];
+            ISolution selectedSolution = (ISolution)Activator.CreateInstance(solutionsTypes[choice - 1])!;
 
-            Console.WriteLine($"{i + 1}: {solution.Title} => {solution.Answer()}");
+            Console.WriteLine(selectedSolution.Answer());
+        }
+        else
+        {
+            Console.WriteLine("Invalid selection!");
         }
     }
 }
