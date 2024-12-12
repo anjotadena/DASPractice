@@ -54,7 +54,7 @@ public class Program
 
         for (int i = 0; i < solutionsTypes.Count; i++)
         {
-            Console.WriteLine($"{i + 1}. {solutionsTypes[i].Name}");
+            Console.WriteLine($"{i + 1}. {Utils.ToHumanReadable(solutionsTypes[i].Name)}");
         }
 
         return solutionsTypes;
