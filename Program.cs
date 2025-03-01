@@ -6,6 +6,14 @@ public class Program
 {
     static void Main(string[] args)
     {
+        int[] ref_A = new int[1];
+        ref_A[0] = 2;
+        int[] ref_B = ref_A;
+        ref_B[0] = 5;
+
+        Console.WriteLine("--Reference Types--");
+        Console.WriteLine($"ref_A[0]: {ref_A[0]}");
+        Console.WriteLine($"ref_B[0]: {ref_B[0]}");
         Console.WriteLine("Welcome to my Data structure and Algorithms Collections");
 
         var exit = false;
@@ -17,7 +25,7 @@ public class Program
 
             Console.Write("Select a solution to execute (enter the number): ");
 
-            if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 0 || choice >= solutionTypes.Count)
+            if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 0 || choice > solutionTypes.Count)
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
